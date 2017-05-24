@@ -1,8 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
-import './index.css';
 
+import App from './component/App';
+
+import './css/index.css';
+
+/**************************  jsx test  ***************************/
+
+/*
+//函数
 function formatName(user) {
   return user.firstName + ' ' + user.lastName;
 }
@@ -12,6 +18,7 @@ function getGreeting(user) {
   }
   return <h1>Hello, Stranger</h1>
 }
+//数据
 const user = {
   firstName:'li',
   lastName:'panda'
@@ -48,10 +55,12 @@ const element4_3 = {
     childred:'Hello, World!'
   }
 }
-// JSX
 
+*/
+//没有被注册会报错
+/**************************  jsx test  ***************************/
 
 ReactDOM.render(
-  element,
+  <App />,
   document.getElementById('root')
 );
